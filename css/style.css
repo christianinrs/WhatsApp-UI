@@ -1,0 +1,114 @@
+            * {
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+            
+            body {
+                background-color: black;
+                display: flex;
+                justify-content: center;
+            }
+            
+            .container {
+                margin-top: 170px;
+                background-color: white;
+                border-radius: 20px;
+                width: 430px;
+            }
+            
+            .navbar {
+                margin-top: 20px;
+                display: flex;
+                justify-content: space-between;
+                padding: 14px;
+                align-items: center;
+            }
+            
+            .navbar h1 {
+                color: #24920f;
+                font-size: 25px;
+                font-weight: bold;
+            }
+            
+            .icon-nav {
+                display: flex;
+                gap: 20px;
+                font-size: 26px;
+                cursor: pointer;
+            }
+            
+            .search-class {
+                margin-right: 14px;
+                margin-left: 13px;
+                width: 94%;
+                border-radius: 50px;
+                background-color: #e6e6e6; /*default*/
+                height: 50px;
+                align-items: center;
+            }
+            
+            .search {
+                display: flex;
+                gap: 18px;
+                align-items: center;
+                padding: 17px;
+                color: #838383;
+            }
+            
+            .btn-filter {
+                margin: 22px 14px;
+                display: flex;
+                gap: 12px;
+            }
+            
+            .btn-filter :nth-child(1) {
+                background-color: #a2f093;
+            }
+            
+            .btn-class {
+                padding: 9px;
+                border-radius: 50px;
+                border-style: none;
+                background-color: #e6e6e6;
+                font-weight: bold;
+                color: #838383;
+                cursor: pointer;
+            }
+            
+            .chat-contact {
+                display: flex;
+                gap: 12px;
+                padding: 0px 14px;
+                padding-bottom: 18px;
+                align-items: center;
+                cursor: pointer;
+            }
+            
+            .img-class {
+                border-radius: 50%;
+                height: 50px;
+                width: 50px;
+                object-fit: cover;
+            }
+            
+            .name-class {
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+            }
+            
+            .name {
+                font-weight: bold;
+            }
+            
+            .chat {
+                color: #838383;
+                font-size: 15px;
+                padding-top: 1px;
+            }
+            
+            .time {
+                color: #838383;
+                font-size: 15px;
+            }
